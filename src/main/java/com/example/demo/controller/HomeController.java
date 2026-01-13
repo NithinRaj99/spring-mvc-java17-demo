@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HomeController {
     @GetMapping("/")
     public String home(Model model) {
-        model.addAttribute("title", "Spring MVC JSP Demo");
+        model.addAttribute("title", "Spring MVC JSP ");
         model.addAttribute("message", "Built with Java 17 & Maven 3.6");
         return "home";
     }
